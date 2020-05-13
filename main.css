@@ -2,6 +2,10 @@ h1:hover {
     background-color: pink;
 }
 
+p:active {
+    color: yellow;
+}
+
 button:hover {
     color: white;
 }
@@ -9,6 +13,11 @@ button:hover {
 button:focus {
     background-color: #2ecc71;
     border-radius: 10px;
+}
+
+button:active {
+    background-color: orange;
+    font-size: 30px;
 }
 
 input:focus {
