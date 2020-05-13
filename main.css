@@ -5,3 +5,12 @@ h1:hover {
 button:hover {
     color: white;
 }
+
+button:focus {
+    background-color: #2ecc71;
+    border-radius: 10px;
+}
+
+input:focus {
+    background-color: teal;
+}
